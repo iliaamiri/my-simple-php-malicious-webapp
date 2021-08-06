@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@font-face {
+  font-family: 'yekan';
+  src: url('../fonts/Yekan.eot?#') format('eot'),  
+       url('../fonts/Yekan.woff') format('woff'),
+       url('../fonts/Yekan.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'nazanin';
+  src: url('../fonts/Nazanin.eot?#') format('eot'),  
+       url('../fonts/Nazanin.woff') format('woff'),
+       url('../fonts/Nazanin.ttf') format('truetype');
+  font-style:normal;
+  font-weight:normal;
+}
+*{
+    font-family: yekan;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.input {
+  font-family: yekan, sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.login {
+  font-family: yekan, sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color:#4a4a4a;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  text-align: center;
+}
+.login:hover,.login:active,.login:focus {
+  background: #101010;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #101010, #444444);
+  background: -moz-linear-gradient(right, #101010, #444444);
+  background: -o-linear-gradient(right, #101010, #444444);
+  background: linear-gradient(to left, #101010, #444444);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+.logout-input{
+  padding: 20px;
+  background-color: #4a4a4a;
+  color: white;
+}
+.btn-custom{
+  display: block;
+  border:none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  padding: 15px;
+  margin-top:10px;
+}
+.input-custom{
+  display: block;
+  background: #840d02;
+  width:100%;
+  border:none;
+  border-radius: 0px;
+  margin-top:10px;
+  padding: 15px;
+  color: #FFFFFF;
+}
+.input-custom:hover{
+  background: #af0e00;
+}
+.input-list{
+  padding:5px;
+  border:none;
+  background: mediumspringgreen;
+  width:400px;
+  color: orangered;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.input-list-submit{
+  padding:5px;
+  border:none;
+  background: #101010;
+  width:200px;
+  color: whitesmoke;
+  margin-top:20px;
+  margin-bottom:20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.input-list-submit:hover{
+  background: #444444;
+}
